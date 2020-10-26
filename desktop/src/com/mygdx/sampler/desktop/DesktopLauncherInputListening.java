@@ -1,14 +1,13 @@
-package com.mygdx.game.desktop;
+package com.mygdx.sampler.desktop;
 
 import com.badlogic.gdx.backends.lwjgl.LwjglApplication;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
-import com.mygdx.game.InputPollingSample;
+import com.mygdx.sampler.InputListeningSample;
 
-public class DesktopLauncherInputPolling {
+public class DesktopLauncherInputListening {
 	public static void main (String[] arg) {
 		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
 
-		//Light weight java game library
-		new LwjglApplication(new InputPollingSample(), config);
+		new LwjglApplication(new InputListeningSample(), config);
 	}
 }

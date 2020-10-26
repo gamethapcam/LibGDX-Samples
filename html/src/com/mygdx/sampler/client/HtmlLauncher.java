@@ -1,9 +1,9 @@
-package com.mygdx.game.client;
+package com.mygdx.sampler.client;
 
 import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.backends.gwt.GwtApplication;
 import com.badlogic.gdx.backends.gwt.GwtApplicationConfiguration;
-import com.mygdx.game.GdxGeneratedSample;
+import com.mygdx.sampler.GdxGeneratedSample;
 
 public class HtmlLauncher extends GwtApplication {
 

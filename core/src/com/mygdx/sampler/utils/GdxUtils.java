@@ -1,4 +1,4 @@
-package com.mygdx.game.utils;
+package com.mygdx.sampler.utils;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Color;

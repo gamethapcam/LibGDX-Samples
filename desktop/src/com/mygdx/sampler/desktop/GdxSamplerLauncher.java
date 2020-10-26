@@ -1,10 +1,9 @@
-package com.mygdx.game.desktop;
+package com.mygdx.sampler.desktop;
 
 import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.backends.lwjgl.LwjglAWTCanvas;
-import com.badlogic.gdx.utils.reflect.ClassReflection;
-import com.mygdx.game.common.SampleFactory;
-import com.mygdx.game.common.SampleInfos;
+import com.mygdx.sampler.common.SampleFactory;
+import com.mygdx.sampler.common.SampleInfos;
 
 import javax.swing.*;
 import java.awt.*;

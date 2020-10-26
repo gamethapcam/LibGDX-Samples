@@ -1,6 +1,6 @@
-package com.mygdx.game.common;
+package com.mygdx.sampler.common;
 
-import com.mygdx.game.*;
+import com.mygdx.sampler.*;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -18,7 +18,8 @@ public class SampleInfos {
             InputPollingSample.SAMPLE_INFO,
             OrthographicCameraSample.SAMPLE_INFO,
             ViewportSample.SAMPLE_INFO,
-            SpriteBatchSample.SAMPLE_INFO
+            SpriteBatchSample.SAMPLE_INFO,
+            ShapeRendererSample.SAMPLE_INFO
     );
 
     public static List<String> getSampleNames() {

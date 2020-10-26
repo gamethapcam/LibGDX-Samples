@@ -1,11 +1,11 @@
-package com.mygdx.game.desktop;
+package com.mygdx.sampler.desktop;
 
 import com.badlogic.gdx.backends.lwjgl.LwjglApplication;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
 import com.badlogic.gdx.tools.texturepacker.TexturePacker;
-import com.mygdx.game.GdxGeneratedSample;
+import com.mygdx.sampler.ApplicationListenerSample;
 
-public class DesktopLauncher {
+public class DesktopLauncherApplicationListenerSample {
 	public static void main (String[] arg) {
 		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
 
@@ -24,6 +24,6 @@ public class DesktopLauncher {
 		settings.edgePadding = true;
 		TexturePacker.process(settings,"raw_textures","./", "textures");
 
-		new LwjglApplication(new GdxGeneratedSample(), config);
+		new LwjglApplication(new ApplicationListenerSample(), config);
 	}
 }

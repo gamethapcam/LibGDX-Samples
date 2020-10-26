@@ -1,4 +1,4 @@
-package com.mygdx.game.common;
+package com.mygdx.sampler.common;
 
 public class SampleInfo {
 

@@ -1,11 +1,11 @@
-package com.mygdx.game;
+package com.mygdx.sampler;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
-import com.mygdx.game.common.SampleBase;
-import com.mygdx.game.common.SampleInfo;
+import com.mygdx.sampler.common.SampleBase;
+import com.mygdx.sampler.common.SampleInfo;
 
 public class GdxGeneratedSample extends SampleBase {
 

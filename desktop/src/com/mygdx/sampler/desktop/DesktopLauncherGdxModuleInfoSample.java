@@ -1,11 +1,9 @@
-package com.mygdx.game.desktop;
+package com.mygdx.sampler.desktop;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplication;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
-import com.badlogic.gdx.tools.texturepacker.TexturePacker;
-import com.mygdx.game.ApplicationListenerSample;
-import com.mygdx.game.GdxModuleInfoSample;
+import com.mygdx.sampler.GdxModuleInfoSample;
 
 public class DesktopLauncherGdxModuleInfoSample {
 	public static void main (String[] arg) {

@@ -1,4 +1,4 @@
-package com.mygdx.game;
+package com.mygdx.sampler;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Color;
@@ -7,9 +7,9 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
-import com.mygdx.game.common.SampleBase;
-import com.mygdx.game.common.SampleInfo;
-import com.mygdx.game.utils.GdxUtils;
+import com.mygdx.sampler.common.SampleBase;
+import com.mygdx.sampler.common.SampleInfo;
+import com.mygdx.sampler.utils.GdxUtils;
 
 public class SpriteBatchSample extends SampleBase {
 

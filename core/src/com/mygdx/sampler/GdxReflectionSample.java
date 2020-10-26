@@ -1,4 +1,4 @@
-package com.mygdx.game;
+package com.mygdx.sampler;
 
 import com.badlogic.gdx.Application;
 import com.badlogic.gdx.Gdx;
@@ -12,8 +12,8 @@ import com.badlogic.gdx.utils.reflect.Field;
 import com.badlogic.gdx.utils.reflect.Method;
 import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
-import com.mygdx.game.common.SampleBase;
-import com.mygdx.game.common.SampleInfo;
+import com.mygdx.sampler.common.SampleBase;
+import com.mygdx.sampler.common.SampleInfo;
 
 import java.util.Arrays;
 

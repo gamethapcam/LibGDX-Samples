@@ -1,22 +1,28 @@
-package com.mygdx.game;
+package com.mygdx.sampler;
 
 import com.badlogic.gdx.Application;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.utils.Logger;
-import com.mygdx.game.common.SampleBase;
-import com.mygdx.game.common.SampleInfo;
+import com.mygdx.sampler.common.SampleBase;
+import com.mygdx.sampler.common.SampleInfo;
 
-public class ApplicationListenerSample extends SampleBase {
-	private static final Logger log = new Logger(ApplicationListenerSample.class.getName(), Logger.DEBUG);
+public class GdxModuleInfoSample extends SampleBase {
+	private static final Logger log = new Logger(GdxModuleInfoSample.class.getName(), Logger.DEBUG);
 
-	public static final SampleInfo SAMPLE_INFO = new SampleInfo(ApplicationListenerSample.class);
+	public static final SampleInfo SAMPLE_INFO = new SampleInfo(GdxModuleInfoSample.class);
 	private boolean renderInterrupted = true;
 
 	@Override
 	public void create() {
 		//Used to initialize game and load resources
 		Gdx.app.setLogLevel(Application.LOG_DEBUG);
-		log.debug("create");
+
+		log.debug("app= " + Gdx.app);
+		log.debug("audio= " + Gdx.audio);
+		log.debug("input= " + Gdx.input);
+		log.debug("files= " + Gdx.files);
+		log.debug("net= " + Gdx.net);
+		log.debug("graphics= " + Gdx.graphics);
 	}
 
 	@Override
