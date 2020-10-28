@@ -1,5 +1,6 @@
 package com.mygdx.sampler.common;
 
+import com.badlogic.gdx.utils.Pools;
 import com.mygdx.sampler.*;
 
 import java.util.ArrayList;
@@ -19,7 +20,12 @@ public class SampleInfos {
             OrthographicCameraSample.SAMPLE_INFO,
             ViewportSample.SAMPLE_INFO,
             SpriteBatchSample.SAMPLE_INFO,
-            ShapeRendererSample.SAMPLE_INFO
+            ShapeRendererSample.SAMPLE_INFO,
+            BitMapFontSample.SAMPLE_INFO,
+            PoolingSample.SAMPLE_INFO,
+            AssetManagerSample.SAMPLE_INFO,
+            TextureAtlasSample.SAMPLE_INFO,
+            CustomActorSample.SAMPLE_INFO
     );
 
     public static List<String> getSampleNames() {
